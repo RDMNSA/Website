@@ -1,0 +1,21 @@
+/*Events*/
+.media_content{
+	border:1px solid var(--border-color);
+	grid-row:1;
+	grid-column:1;
+	/*opacity:0;*/
+	max-height:unset;
+	/*min-height:-webkit-fill-available;*/
+	height:fit-content;
+	flex-flow:column nowrap;
+	/*background-color:var(--second-bg-color);*/
+}
+.Event{
+	margin:20px;
+}
+.Event h1{
+	margin-bottom:2px;
+}
+.Event h4{
+	margin:0px;
+}

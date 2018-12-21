@@ -1,0 +1,113 @@
+/*Kinderfeuerwehr*/
+@media (min-width: 1541px){
+	.media_content{
+		border:1px solid var(--border-color);
+		grid-row:1;
+		grid-column:1;
+		/*opacity:0;*/
+		/*min-height:-webkit-fill-available;*/
+		height:fit-content;
+		flex-flow:column nowrap;
+		/*background-color:var(--second-bg-color);*/
+	}	
+		/*Medias*/	
+	#KF{
+		flex-flow:row;
+	}
+	#KF_img_1,#KF_img_2{
+		/*height: -webkit-fill-available;*/
+		max-width:430px;
+		flex-grow: 1;
+		max-height: 399px;
+	}
+	#KF_img_1 img,#KF_img_2 img{
+		object-fit:cover;
+		/*height: -webkit-fill-available;*/
+		max-width:430px;
+		flex-grow: 1;
+	}
+	.KF_text{
+		justify-content:center;
+		padding:20px;
+		flex-flow:column nowrap;
+		max-height: 399px;
+	}
+	.KF_hr{
+		margin-top:0px;
+	}
+}
+@media (min-width: 545px) and (max-width:1540px){
+	.media_content{
+		border:1px solid var(--border-color);
+		grid-row:1;
+		grid-column:1;
+		/*opacity:0;*/
+		/*min-height:-webkit-fill-available;*/
+		height:fit-content;
+		flex-flow:column wrap;
+		/*background-color:var(--second-bg-color);*/
+	}
+		/*Medias*/	
+	#KF{
+		flex-flow:column wrap;
+	}
+	#KF_img_1,#KF_img_2{
+		/*height: -webkit-fill-available;*/
+		
+		flex-grow: 1;
+		max-height: 650px;
+	}
+	#KF_img_1 img,#KF_img_2 img{
+		object-fit:cover;
+		/*height: -webkit-fill-available;*/
+		width:100%;
+		flex-grow: 1;
+		max-height: 650px;
+	}
+	.KF_text{
+		justify-content:center;
+		padding:20px;
+		flex-flow:column nowrap;
+	}
+	.KF_hr{
+		margin-top:0px;
+	}
+}
+@media (max-width: 544px){
+	.media_content{
+		border:1px solid var(--border-color);
+		grid-row:1;
+		grid-column:1;
+		/*opacity:0;*/
+		/*min-height:-webkit-fill-available;*/
+		height:fit-content;
+		flex-flow:column wrap;
+		/*background-color:var(--second-bg-color);*/
+	}
+		/*Medias*/
+	#KF{
+		flex-flow:column wrap;
+	}		
+	#KF_img_1,#KF_img_2{
+		/*height: -webkit-fill-available;*/
+
+		flex-grow: 1;
+		max-height: 399px;
+	}
+	#KF_img_1 img,#KF_img_2 img{
+		object-fit:cover;
+		/*height: -webkit-fill-available;*/
+
+		flex-grow: 1;
+		max-height: 399px;
+		max-width:100%
+	}
+	.KF_text{
+		justify-content:center;
+		padding:20px;
+		flex-flow:column nowrap;
+	}
+	.KF_hr{
+		margin-top:0px;
+	}
+}

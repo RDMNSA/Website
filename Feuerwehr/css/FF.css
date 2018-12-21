@@ -1,0 +1,101 @@
+/*Einsatzabteilung*/
+@media (min-width: 1625px){
+	.media_content{
+		border:1px solid var(--border-color);
+		grid-row:1;
+		grid-column:1;
+		/*opacity:0;*/
+		/*min-height:-webkit-fill-available;*/
+		height:fit-content;
+		flex-flow:column nowrap;
+		/*background-color:var(--second-bg-color);*/
+	}
+		/*Medias*/	
+	#FF_img{
+		flex-flow:row;
+	}
+	#FF_img div{
+		/*height: -webkit-fill-available;*/
+		max-width:430px;
+		flex-grow: 1;
+		max-height: 399px;
+	}
+	.media_content img{
+		object-fit:cover;
+		/*height: -webkit-fill-available;*/
+		/*max-width:430px;*/
+		flex-grow: 1;
+		max-height: 399px;
+	}
+	#FF_text{
+		justify-content:center;
+		padding:20px;
+		flex-flow:column nowrap;
+	}
+}
+@media (min-width: 545px) and (max-width:1624px){
+	.media_content{
+		border:1px solid var(--border-color);
+		grid-row:1;
+		grid-column:1;
+		/*opacity:0;*/
+		/*min-height:-webkit-fill-available;*/
+		height:fit-content;
+		flex-flow:column wrap;
+		/*background-color:var(--second-bg-color);*/
+	}
+		/*Medias*/
+	#FF_img{
+		flex-flow:column;
+	}
+	#FF_img div{
+		/*height: -webkit-fill-available;*/
+		
+		flex-grow: 1;
+	}
+	.media_content img{
+		object-fit:cover;
+		/*height: -webkit-fill-available;*/
+		width:100%;
+		flex-grow: 1;
+		max-height: 650px;
+	}
+	#FF_text{
+		justify-content:center;
+		padding:20px;
+		flex-flow:column nowrap;
+	}
+}
+@media (max-width: 544px){
+	.media_content{
+		border:1px solid var(--border-color);
+		grid-row:1;
+		grid-column:1;
+		/*opacity:0;*/
+		/*min-height:-webkit-fill-available;*/
+		height:fit-content;
+		flex-flow:column wrap;
+		/*background-color:var(--second-bg-color);*/
+	}
+		/*Medias*/	
+	#FF_img{
+		flex-flow:column;
+	}
+	#FF_img div{
+		/*height: -webkit-fill-available;*/
+		flex-grow: 1;
+	}
+	.media_content img{
+		object-fit:cover;
+		/*height: -webkit-fill-available;*/
+
+		flex-grow: 1;
+		max-height: 399px;
+		max-width:100%
+	}
+	#FF_text{
+		justify-content:center;
+		padding:20px;
+		flex-flow:column nowrap;
+	}
+}

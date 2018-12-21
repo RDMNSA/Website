@@ -1,0 +1,120 @@
+/*Jugendfeuerwehr*/
+@media (min-width: 1149px){
+	.media_content{
+		border:1px solid var(--border-color);
+		grid-row:1;
+		grid-column:1;
+		/*opacity:0;*/
+		/*min-height:-webkit-fill-available;*/
+		height:fit-content;
+		flex-flow:column;
+		/*background-color:var(--second-bg-color);*/
+	}
+		/*Medias*/	
+	#JF{
+		flex-flow:row;
+		min-height:fit-content;
+	}
+	#JF_img_1{
+		/*height: -webkit-fill-available;*/
+		max-width:299px;
+		flex-grow: 1;
+		max-height: 399px;
+	}
+	#JF_img_2{
+		/*max-width:333px;*/
+		flex-grow: 1;
+		max-height: 399px;
+	}
+	#JF_img_1 img{
+		object-fit:cover;
+		/*height: -webkit-fill-available;*/
+		max-width:299px;
+		flex-grow: 1;
+		max-height: 399px;
+	}
+	#JF_img_2 img{
+		object-fit:cover;
+		/*height: -webkit-fill-available;*/
+		/*max-width:333px;*/
+		flex-grow: 1;
+		max-height: 399px;
+	}
+	#JF_text{
+		justify-content:center;
+		padding:0 20px;
+		flex-flow:column nowrap;
+		max-height: 399px;
+	}
+}
+@media (min-width: 545px) and (max-width:1148px){
+	.media_content{
+		border:1px solid var(--border-color);
+		grid-row:1;
+		grid-column:1;
+		/*opacity:0;*/
+		/*min-height:-webkit-fill-available;*/
+		height:fit-content;
+		flex-flow:column wrap;
+		/*background-color:var(--second-bg-color);*/
+	}
+		/*Medias*/	
+	#JF{
+
+	}
+	#JF_img_1,#JF_img_2{
+		/*height: -webkit-fill-available;*/
+		
+		flex-grow: 1;
+		max-height: 650px;
+	}
+	#JF_img_1 img,#JF_img_2 img{
+		object-fit:cover;
+		/*height: -webkit-fill-available;*/
+		width:100%;
+		flex-grow: 1;
+		max-height: 650px;
+	}
+	#JF_text{
+		justify-content:center;
+		padding:20px;
+		flex-flow:column nowrap;
+		max-height: 399px;
+	}
+}
+@media (max-width: 544px){
+	.media_content{
+		border:1px solid var(--border-color);
+		grid-row:1;
+		grid-column:1;
+		/*opacity:0;*/
+		/*min-height:-webkit-fill-available;*/
+		height:fit-content;
+		flex-flow:column wrap;
+		/*background-color:var(--second-bg-color);*/
+	}
+		/*Medias*/	
+	#JF{
+		
+	}
+	#JF_img_1,#JF_img_2{
+		/*height: -webkit-fill-available;*/
+
+		flex-grow: 1;
+		max-height: 399px;
+	}
+	#JF_img_1 img,#JF_img_2 img{
+		object-fit:cover;
+		/*height: -webkit-fill-available;*/
+
+		flex-grow: 1;
+		max-height: 399px;
+		max-width:100%
+	}
+	#JF_text{
+		justify-content:center;
+		padding:20px;
+		flex-flow:column nowrap;
+		max-height: 399px;
+	}
+}

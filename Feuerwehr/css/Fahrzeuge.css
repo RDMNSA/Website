@@ -1,0 +1,108 @@
+/*Fahrzeuge*/
+@media (min-width: 859px){
+	.media_content{
+		border:1px solid var(--border-color);
+		grid-row:1;
+		grid-column:1;
+		/*opacity:0;*/
+		max-height: 596px; 
+		/*min-height:-webkit-fill-available;*/
+		height:fit-content;
+		flex-flow:column nowrap;
+		/*background-color:var(--second-bg-color);*/
+	}
+		/*Medias*/
+	#LF,#MTW{
+		flex-grow:1;		
+	}
+	#LF{
+		flex-flow:row wrap;
+	}
+	#MTW{
+		flex-flow:row-reverse wrap;
+	}
+	#LF img,#MTW img{
+		object-fit:contain;
+		/*height: -webkit-fill-available;*/
+		max-width:299px;
+		flex-grow: 1;
+	}
+	#F_text{
+		justify-content:center;
+		padding:0 20px;
+		flex-flow:column nowrap;
+	}
+	#F_text p{
+		margin:14px 0;
+	}
+}
+@media (min-width: 545px) and (max-width:858px){
+	.media{
+		align-items: center;
+		display:grid;
+		padding:20px;
+		width:80%;	
+		justify-content:center;
+	}
+	.media_content{
+		border:1px solid var(--border-color);
+		grid-row:1;
+		grid-column:1;
+		/*opacity:0;*/
+		min-height:-webkit-fill-available;
+		height:fit-content;
+		flex-flow:column nowrap;
+		/*background-color:var(--second-bg-color);*/
+	}
+		/*Medias*/
+	#LF,#MTW{
+		flex-grow:1;
+		flex-flow:column nowrap;
+	}
+
+	#LF img,#MTW img{
+		object-fit:contain;
+		/*height: -webkit-fill-available;*/
+		max-width:299px;
+		width:100%;
+		flex-grow: 1;
+	}
+	#F_text{
+		padding:0 20px;
+		flex-flow:column nowrap;
+	}
+	#F_text p{
+		margin:6px 0;
+	}
+}
+@media (max-width: 544px){
+	.media_content{
+		border:1px solid var(--border-color);
+		grid-row:1;
+		grid-column:1;
+		/*opacity:0;*/
+		min-height:-webkit-fill-available;
+		height:fit-content;
+		flex-flow:column nowrap;
+		/*background-color:var(--second-bg-color);*/
+	}
+		/*Medias*/
+	#LF,#MTW{
+		flex-grow:1;
+		flex-flow:column nowrap;
+	}
+
+	#LF img,#MTW img{
+		object-fit:contain;
+		/*height: -webkit-fill-available;*/
+		width:100%;
+		flex-grow: 1;
+	}
+	#F_text{
+		padding:0 20px;
+		flex-flow:column nowrap;
+	}
+	#F_text p{
+		margin:3px 0;
+	}
+}

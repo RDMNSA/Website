@@ -1,0 +1,28 @@
+/*Footer/Impressum*/
+:root{
+	--footer-color:#d7e1ff;
+	--footer-text-color:#AB2524;
+	--hover-color:#FC0A1C;
+}
+.footer_hr{
+	margin-bottom:0;
+}
+footer{
+		height:5vh;
+		width:-webkit-fill-available;
+		width: 100%;
+		width: -moz-available;          
+		width: fill-available;
+		z-index:3;
+		background-color:var(--footer-color);		
+		justify-content:center;
+		display:flex;
+		align-items:center;
+	}
+footer a{
+	color:var(--footer-text-color);
+	text-decoration:none;
+}
+footer a:hover{
+	color:var(--hover-color);
+}

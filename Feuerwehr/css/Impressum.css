@@ -1,0 +1,84 @@
+@import "compass/css3";
+
+:root{
+	--main-bg-color:#F5F5F5;
+	--second-bg-color:#e8e8e8;
+	--text-color:#000000;
+	--border-color:#da3131;
+	--border-color-dienst:#da3131;
+	--border-color-list:#FFFFFF;
+	--hr-color:#da0000;
+	--rpbox-textbg-color:#808080a1;
+	--list-option-color:rgb(171,37,36);
+	--list-option-hover-color:linear-gradient(rgba(171,37,36, 0.7),rgba(171,37,36, 0.7));
+	--list-option-hover-color-moz:-moz-linear-gradient(rgba(171,37,36, 0.7),rgba(171,37,36, 0.7));
+	--list-option-hover-color-web:-webkit-linear-gradient(rgba(171,37,36, 0.7),rgba(171,37,36, 0.7));
+}
+
+
+
+*{
+	font-family: 'Roboto', sans-serif;
+	color:var(--text-color);
+}
+body {
+	display:flex;
+	margin:0;
+	min-width:auto;
+	min-height:auto;
+	overflow-x:hidden;
+	flex-flow: column wrap;	
+	background-color:var(--main-bg-color);
+}
+
+div {
+	display:flex;
+	flex-flow: column wrap;
+
+}
+hr {
+	padding:0px;
+	width:-webkit-fill-available;
+	max-height:1px;
+	border-color:var(--hr-color);
+}
+#main > *{
+
+	margin:auto;
+	flex: 1 100%;
+	flex-flow: column wrap;
+}
+.all {
+	height:-webkit-fill-available;	
+	height: 100%;
+    height: -moz-available;          
+    height: fill-available;
+	margin:auto;
+	flex: 1 100%;
+	flex-flow: column wrap;
+	max-height:min-content;
+	width:-webkit-fill-available;
+	width: 100%;
+    width: -moz-available;          
+    width: fill-available;
+	margin-bottom:4px;
+	padding-top:70px;
+}
+/*Sidebar*/
+.sidebar{
+	
+}
+/*Content*/
+.content{
+	padding:0 70px;
+	padding-bottom:20px;
+}
+span{
+	color:#da0000;
+}
+h2,h3{
+	margin-bottom:2px;	
+}
+a:hover{
+	color:#FC0A1C;
+}

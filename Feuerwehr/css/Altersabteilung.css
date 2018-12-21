@@ -1,0 +1,12 @@
+/*Altersabteilung*/
+.media_content{
+		border:1px solid var(--border-color);
+		grid-row:1;
+		grid-column:1;
+		/*opacity:0;*/
+		/*min-height:-webkit-fill-available;*/
+		height:fit-content;
+		flex-flow:column nowrap;
+		padding:20px;
+		/*background-color:var(--second-bg-color);*/
+	}
