@@ -7,7 +7,7 @@
 		<link href="./css/Impressum.css" rel="stylesheet" type="text/css" />
 		<link href="./css/Footer.css" rel="stylesheet" type="text/css" />
 		<link rel="shortcut icon" href="./Img/Tuendern_0.ico" type="image/vnd.microsoft.icon" />
-		<script src="https://code.jquery.com/jquery-latest.js"></script>
+		<script src="./js/jquery.js"></script>
 		<title>Freiwillige Feuerwehr Tündern</title>
 	</head>
 	<body scroll="no">

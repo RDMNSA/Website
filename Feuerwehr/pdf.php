@@ -19,14 +19,6 @@
 
 							$Ort = $_REQUEST['Ort'];
 
-							$IBAN = "0545646464654616131302551";
-
-							$BIC = "7899665465";
-
-							$Institut = "Sparkasse Hameln";
-
-							$Betrag = "17";
-
 							$pdfName = "Anmeldung_".$Vorname."_".$Name.".pdf";
 
 	//////////////////////////// Inhalt des PDFs als HTML-Code \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -70,7 +62,12 @@
 		}
 	
 	$html = '
-
+	<head>
+		<meta charset="utf-8">
+		<link rel="shortcut icon" href="./Img/Tuendern_0.ico" type="image/vnd.microsoft.icon" />
+		<script src="./js/jquery.js"></script>
+		<title>Freiwillige Feuerwehr Tündern</title>
+	</head>
 	<table cellpadding="5" cellspacing="0" style="width: 100%;" >
 
 		<tr>

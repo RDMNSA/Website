@@ -7,11 +7,14 @@
 		<link href="./css/style_contentpage.css" rel="stylesheet" type="text/css" />
 		<link href="./css/Footer.css" rel="stylesheet" type="text/css" />
 		<link rel="shortcut icon" href="./Img/Tuendern_0.ico" type="image/vnd.microsoft.icon" />
-		<script src="https://code.jquery.com/jquery-latest.js"></script>
 		<title>Freiwillige Feuerwehr Tündern</title>
-		
+		<script src="./js/jquery.js"></script>
 	</head>
-	<body scroll="no" onload="animateValue('value1', 0, 1000,'filterDiv');animateValue('value2', 0, 1000,'filterDiv feuer');animateValue('value3', 0, 1000,'filterDiv th');animateValue('value4', 0, 1000,'filterDiv bma');animateValue('value5', 0, 1000,'filterDiv fehl');">
+	<body scroll="no" onload="animateValue('value1', 0, 1000,'filterDiv');
+	animateValue('value2', 0, 1000,'filterDiv feuer');
+	animateValue('value3', 0, 1000,'filterDiv th');
+	animateValue('value4', 0, 1000,'filterDiv bma');
+	animateValue('value5', 0, 1000,'filterDiv fehl');">
 		<header>
 			<?php
 				echo file_get_contents('./menus/nav.html');
@@ -24,7 +27,7 @@
 							<a class="btn active" onclick="filterSelection('all')"><li class="list_option" id="list_first">Alle&nbsp; <span id="value1">0</span>&nbsp;Einsätze</li></a>
 							<a class="btn" onclick="filterSelection('feuer')"><li class="list_option" id="list_first">Feuer:&nbsp; <span id="value2">0</span></li></a>
 							<a class="btn" onclick="filterSelection('th')"><li class="list_option">Technische Hilfeleistungen:&nbsp; <span id="value3">0</span></li></a>
-							<a class="btn" onclick="filterSelection('bma')"><li class="list_option">Brandmeldaanlagen:&nbsp; <span id="value4">0</span></li></a>
+							<a class="btn" onclick="filterSelection('bma')"><li class="list_option">Brandmeldeanlagen:&nbsp; <span id="value4">0</span></li></a>
 							<a class="btn" onclick="filterSelection('fehl')"><li class="list_option">Fehlalarme:&nbsp; <span id="value5">0</span></li></a>
 
 						</ul>

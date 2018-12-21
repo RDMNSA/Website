@@ -27,7 +27,10 @@
 	--list-option-hover-color-web:-webkit-linear-gradient(rgba(171,37,36, 0.7),rgba(171,37,36, 0.7));
 }
 
-
+@font-face{
+	font-family:'Roboto';
+	src:url('./../Schriftarten/Roboto-Regular.ttf') format('truetype');
+}
 
 *{
 	font-family: 'Roboto', sans-serif;
@@ -332,6 +335,11 @@ video{
     display: flex;
 	text-decoration:none;
 	cursor:pointer;	
+}
+.btn.active .list_option{ 
+	background: var(--list-option-hover-color-moz);
+	background: var(--list-option-hover-color-web);
+	background: var(--list-option-hover-color);
 }
 /*Part 4 (Kontaktdaten)*/
 #part_4{
